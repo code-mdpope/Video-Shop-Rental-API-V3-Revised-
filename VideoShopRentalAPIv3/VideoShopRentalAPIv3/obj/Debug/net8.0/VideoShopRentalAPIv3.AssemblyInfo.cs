@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VideoShopRentalAPIv3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76f2c7dc89cc5faf601a53973a7c9bcc580932f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("VideoShopRentalAPIv3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VideoShopRentalAPIv3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

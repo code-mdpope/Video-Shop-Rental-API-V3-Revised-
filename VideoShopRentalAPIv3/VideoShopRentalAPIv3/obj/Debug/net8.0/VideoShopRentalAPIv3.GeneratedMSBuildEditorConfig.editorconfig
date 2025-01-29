@@ -25,3 +25,27 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\mark\Desktop\Video Shop Rental API V3(Revised)\VideoShopRentalAPIv3\VideoShopRentalAPIv3
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/mark/Desktop/Video Shop Rental API V3(Revised)/VideoShopRentalAPIv3/VideoShopRentalAPIv3/Views/Customers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mark/Desktop/Video Shop Rental API V3(Revised)/VideoShopRentalAPIv3/VideoShopRentalAPIv3/Views/Customers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mark/Desktop/Video Shop Rental API V3(Revised)/VideoShopRentalAPIv3/VideoShopRentalAPIv3/Views/Customers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mark/Desktop/Video Shop Rental API V3(Revised)/VideoShopRentalAPIv3/VideoShopRentalAPIv3/Views/Customers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mark/Desktop/Video Shop Rental API V3(Revised)/VideoShopRentalAPIv3/VideoShopRentalAPIv3/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mark/Desktop/Video Shop Rental API V3(Revised)/VideoShopRentalAPIv3/VideoShopRentalAPIv3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

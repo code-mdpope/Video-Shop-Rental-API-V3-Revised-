@@ -8,6 +8,6 @@
         public string ReleaseDate { get; set; }
         public decimal Price { get; set; }
 
-        public ICollection<RentalDetails> RentalDetails { get; set; }
+        public ICollection<RentalDetails>? RentalDetails { get; set; }
     }
 }

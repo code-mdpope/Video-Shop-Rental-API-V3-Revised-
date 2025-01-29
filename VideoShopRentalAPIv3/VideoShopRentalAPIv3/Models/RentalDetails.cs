@@ -1,7 +1,9 @@
 ﻿namespace VideoShopRentalAPIv3.Models
 {
+    
     public class RentalDetails
     {
+        
         public int Id { get; set; }
         public int RentalId { get; set; }
         public int MovieId { get; set; }

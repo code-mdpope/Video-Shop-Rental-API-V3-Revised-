@@ -10,6 +10,7 @@ namespace VideoShopRental.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class RentalsController : ControllerBase
     {
         private readonly VideoRentalContext _context;
@@ -21,31 +22,25 @@ namespace VideoShopRental.Controllers
 
         // GET: api/Rentals
         [HttpGet]
+       
         public async Task<ActionResult<IEnumerable<Rental>>> GetRentals()
         {
-            return await _context.Rentals
-                .Include(r => r.Customer)
-                .Include(r => r.RentalDetails)
-                    .ThenInclude(rd => rd.Movie)
-                .ToListAsync();
+            return await _context.Rentals.ToListAsync();
+
         }
 
         // GET: api/Rentals/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Rental>> GetRental(int id)
         {
-            var rental = await _context.Rentals
-                .Include(r => r.Customer)
-                .Include(r => r.RentalDetails)
-                    .ThenInclude(rd => rd.Movie)
-                .FirstOrDefaultAsync(r => r.Id == id);
+            var Rental = await _context.Rentals.FindAsync(id);
 
-            if (rental == null)
+            if (Rental == null)
             {
                 return NotFound();
             }
 
-            return rental;
+            return Rental;
         }
 
         // POST: api/Rentals
